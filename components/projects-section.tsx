@@ -1,28 +1,32 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { ExternalLink } from "lucide-react"
+import { link } from "fs"
 
 const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "RubyApks",
     description:
-      "A modern, scalable e-commerce solution with advanced analytics and seamless user experience. Built with Next.js and integrated payment systems.",
-    image: "/modern-ecommerce-interface.png",
-    tags: ["Next.js", "TypeScript", "Stripe", "Analytics"],
+      "Rubyapks is a free, web-based app marketplace designed specifically for indie game lovers and developers. The platform enables seamless browsing, discovery, and distribution of indie apps and games worldwide—all without registration.",
+    image: "/rubyapks logo.png",
+    tags: ["Blogger", "Adsense", "SEO", "Analytics"],
+    link: "https://rubyapks.blogspot.com",
   },
   {
-    title: "Healthcare Dashboard",
+    title: "PdfnBooks",
     description:
-      "Comprehensive healthcare management system with real-time patient monitoring, appointment scheduling, and data visualization.",
-    image: "/healthcare-dashboard-with-charts-and-data.jpg",
-    tags: ["React", "D3.js", "Node.js", "PostgreSQL"],
+      "Pdfnbooks is a vibrant digital library offering free eBooks and PDFs across genres—from educational texts to fanfiction. Managed by a community of passionate authors, the platform curates a diverse collection for readers worldwide. ",
+    image: "/pdfnbooks logo2.png",
+    tags: ["Blogger", "Adsense", "SEO", "Analytics"],
+    link: "https://pdfnbooks.blogspot.com",
   },
   {
-    title: "AI-Powered SaaS",
+    title: "Rubies Unleashed",
     description:
-      "Intelligent automation platform that leverages machine learning to optimize business processes and increase productivity.",
-    image: "/ai-interface-with-data-visualization-and-automatio.jpg",
-    tags: ["Python", "TensorFlow", "AWS", "React"],
+      "Rubies Unleashed is a next-generation digital ecosystem designed to connect users and developers worldwide through visually attractive, secure, innovative, and inclusive digital solutions. With a commitment to accessibility and growth.",
+    image: "/rubies_unleashed_logo.jpg",
+    tags: ["Python", "Github", "Netlify", "React"],
+    link: "https://rubiesunleashed.netlify.app",
   },
 ]
 
@@ -64,10 +68,14 @@ export function ProjectsSection() {
                   ))}
                 </div>
 
-                <Button variant="outline" className="w-full group bg-transparent">
-                  Learn More
-                  <ExternalLink className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </Button>
+                <a href={project.link} target="_blank" rel="noopener noreferrer">
+  <Button variant="outline" className="w-full group bg-transparent">
+    Learn More
+    <ExternalLink className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+  </Button>
+</a>
+
+               
               </CardContent>
             </Card>
           ))}

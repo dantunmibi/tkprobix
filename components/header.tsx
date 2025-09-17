@@ -8,7 +8,7 @@ export function Header() {
           <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
             <span className="text-primary-foreground font-bold text-lg">T</span>
           </div>
-          <span className="font-bold text-xl">tkpobix</span>
+          <span className="font-bold text-xl">TkProbix</span>
         </div>
 
         <nav className="hidden md:flex items-center space-x-6">
@@ -23,9 +23,9 @@ export function Header() {
           </a>
         </nav>
 
-        <Button variant="outline" className="hidden md:inline-flex bg-transparent">
+        <a href="https://linkedin.com/in/dantunmibi" target="_blank"><Button variant="outline" className="hidden md:inline-flex bg-transparent">
           Get in Touch
-        </Button>
+        </Button></a>
       </div>
     </header>
   )

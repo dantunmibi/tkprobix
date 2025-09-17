@@ -10,7 +10,7 @@ export function Footer() {
               <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-lg">T</span>
               </div>
-              <span className="font-bold text-xl">tkpobix</span>
+              <span className="font-bold text-xl">TkProbix</span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md leading-relaxed">
               Transforming ideas into exceptional digital experiences through innovative design and cutting-edge
@@ -45,29 +45,8 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold mb-4">Services</h3>
-            <ul className="space-y-2 text-muted-foreground">
-              <li>
-                <a href="#" className="hover:text-foreground transition-colors">
-                  Web Development
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-foreground transition-colors">
-                  Mobile Apps
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-foreground transition-colors">
-                  UI/UX Design
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-foreground transition-colors">
-                  Consulting
-                </a>
-              </li>
-            </ul>
+            <h3 className="font-semibold mb-4"></h3>
+            
           </div>
 
           <div>
@@ -88,17 +67,12 @@ export function Footer() {
                   Contact
                 </a>
               </li>
-              <li>
-                <a href="#" className="hover:text-foreground transition-colors">
-                  Careers
-                </a>
-              </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t mt-12 pt-8 text-center text-muted-foreground">
-          <p>&copy; 2024 tkpobix. All rights reserved.</p>
+          <p>&copy; 2025 tkprobix. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -9,21 +9,21 @@ export function HeroSection() {
       <div className="relative z-10 container mx-auto px-4 text-center">
         <h1 className="font-[family-name:var(--font-playfair)] text-5xl md:text-7xl font-bold mb-6 text-balance">
           Crafting Digital
-          <span className="text-primary block">Excellence</span>
+          <span className="text-primary block">Realized</span>
         </h1>
 
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto text-pretty">
-          We transform ideas into exceptional digital experiences through innovative design and cutting-edge technology.
+          At TkProbix, every project is a fusion of imagination, code, and design excellence.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="text-lg px-8">
+          <a href="#projects"><Button size="lg" className="text-lg px-8">
             View Our Work
             <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
-          <Button size="lg" variant="outline" className="text-lg px-8 bg-transparent">
+          </Button></a>
+          <a href="#about"><Button size="lg" variant="outline" className="text-lg px-8 bg-transparent">
             Learn More
-          </Button>
+          </Button></a>
         </div>
       </div>
     </section>

@@ -4,24 +4,24 @@ import { Users, Target, Lightbulb, Award } from "lucide-react"
 const features = [
   {
     icon: Users,
-    title: "Expert Team",
+    title: "Expert Developers",
     description:
-      "Our diverse team of designers, developers, and strategists brings years of experience to every project.",
+      "Years of experience in programming, design, and digital creativity.",
   },
   {
     icon: Target,
     title: "Results-Driven",
-    description: "We focus on delivering measurable outcomes that drive business growth and user satisfaction.",
+    description: "Every project is built to perform and make an impact.",
   },
   {
     icon: Lightbulb,
     title: "Innovation First",
-    description: "We stay ahead of technology trends to provide cutting-edge solutions for modern challenges.",
+    description: "We explore the latest technologies to create cutting-edge experiences.",
   },
   {
     icon: Award,
     title: "Quality Assured",
-    description: "Every project undergoes rigorous testing and quality assurance to ensure exceptional standards.",
+    description: "Rigorous testing ensures every project meets high standards.",
   },
 ]
 
@@ -32,17 +32,14 @@ export function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="font-[family-name:var(--font-playfair)] text-4xl md:text-5xl font-bold mb-6">
-              About tkpobix
+              About Tkprobix
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              Founded with a vision to bridge the gap between innovative technology and exceptional user experiences,
-              tkpobix has been at the forefront of digital transformation for over a decade.
+              Founded with a passion for turning ideas into digital experiences, TkProbix has been creating innovative projects that blend technology, creativity, and functionality. With a focus on originality and quality, each project is a showcase of what’s possible when imagination meets code.
             </p>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              We specialize in creating bespoke digital solutions that not only meet our clients' immediate needs but
-              also position them for future growth. Our collaborative approach ensures that every project reflects our
-              clients' unique vision while leveraging the latest technological advancements.
-            </p>
+              We specialize in developing unique digital projects that push the boundaries of design and functionality, reflecting our commitment to innovation and technical excellence.
+              </p>
 
             <div className="grid sm:grid-cols-2 gap-6">
               <div>
