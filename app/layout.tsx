@@ -14,9 +14,8 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: "tkpobix - Portfolio",
+  title: "Tkprobix",
   description: "Professional portfolio showcasing our innovative projects and expertise",
-  generator: "v0.app",
 }
 
 export default function RootLayout({
@@ -26,6 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="shortcut icon" href="/tklogo.png" type="image/x-icon" />
+      </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} ${playfair.variable}`}>
         <Suspense fallback={null}>{children}</Suspense>
         <Analytics />
